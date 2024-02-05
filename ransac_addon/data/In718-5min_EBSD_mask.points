@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE namedpointset [
+  <!ELEMENT namedpointset (pointworld*)>
+  <!ELEMENT pointworld EMPTY>
+  <!ATTLIST namedpointset version CDATA #REQUIRED>
+  <!ATTLIST pointworld set (true|false) #REQUIRED>
+  <!ATTLIST pointworld name CDATA #REQUIRED>
+  <!ATTLIST pointworld x CDATA #IMPLIED>
+  <!ATTLIST pointworld y CDATA #IMPLIED>
+  <!ATTLIST pointworld z CDATA #IMPLIED>
+]>
+
+<namedpointset version="1.0">
+  <pointworld set="true" name="Named Point (0)" x="230.0" y="57.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (1)" x="709.0" y="63.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (2)" x="870.0" y="160.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (3)" x="910.0" y="334.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (4)" x="828.0" y="332.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (5)" x="908.0" y="724.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (6)" x="893.0" y="888.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (7)" x="835.0" y="872.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (8)" x="550.0" y="649.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (9)" x="526.0" y="907.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (10)" x="107.0" y="891.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (11)" x="25.0" y="736.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (12)" x="11.0" y="298.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (13)" x="8.0" y="149.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (14)" x="370.0" y="294.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (15)" x="512.0" y="586.0" z="0.0"/>
+  <pointworld set="true" name="Named Point (16)" x="600.0" y="324.0" z="0.0"/>
+</namedpointset>
